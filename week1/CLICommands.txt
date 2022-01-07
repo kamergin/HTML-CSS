@@ -1,13 +1,13 @@
-1- How do I create a hidden file or folder? How do I display it in the CLI?
+#1- How do I create a hidden file or folder? How do I display it in the CLI?
 
 mkdir .FilesToHide
 ls -a
 
-2- How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+#2- How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
 
 mkdir -p nested/articles/images/note/done/
 
-3- How do I append a message to a file, without a newline character, so the output would be:
+#3- How do I append a message to a file, without a newline character, so the output would be:
 
 first message
 second message
