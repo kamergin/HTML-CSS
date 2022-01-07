@@ -1,0 +1,305 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+/* header and navbar configuration */
+.header {
+  background-image: url('https://i.ibb.co/TLsC80D/topbanner4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 2.6vw;
+  text-align: center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #fcdc15;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  border-bottom: 3px solid green;
+  z-index: 4;
+  font-size: 1.8vw;
+}
+@media only screen and (max-width: 620px) {
+  .navbar {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin: auto;
+  }
+}
+
+.navbar a {
+  text-decoration: none;
+  background-color: #fcdc15;
+  color: green;
+  padding: 0px 5px;
+}
+
+.navbar a:hover {
+  background-color: green;
+  color: #fcdc15;
+  padding: 10px 5px;
+}
+
+/* main & sectors layout and float configuration*/
+.left,
+.right {
+  width: 20%;
+  float: left;
+}
+
+.content {
+  width: 60%;
+  float: left;
+}
+
+.city {
+  border: solid green;
+  border-radius: 10px;
+  margin: 3px;
+  padding: 20px 10px 10px 10px;
+}
+
+.CityDiv1,
+.CityDiv3 {
+  padding: 0px 10px;
+}
+
+.footer {
+  clear: both;
+  text-align: center;
+  padding: 10px;
+  background-color: #fcdc15;
+  border-top: 5px solid green;
+}
+
+/* Use of flexible columns inside my sectors */
+.column {
+  float: left;
+  width: 33.33%;
+  font-size: 12px;
+  padding: 10px;
+  border-bottom: solid 1px;
+}
+
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* responsive layout configuration for main layout*/
+@media only screen and (max-width: 620px) {
+  .left,
+  .content,
+  .right,
+  .column {
+    width: 100%;
+  }
+}
+
+/* responsive video embed configuration */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.youtube {
+  border: 0px;
+}
+
+/* h tags configuration */
+h1 {
+  color: white;
+  text-shadow: 2px 2px 8px #000000;
+  margin: 0;
+  text-align: center;
+  font-family: fantasy;
+}
+
+h2 {
+  color: #faa21c;
+  font-family: 'Sofia', sans-serif, fantasy;
+  font-size: 2em;
+  text-align: left;
+}
+
+h2.alert {
+  color: red;
+}
+
+h2.thingstodo {
+  color: green;
+}
+h2.intro-title,
+h2.tags {
+  color: green;
+  font-family: 'Ubuntu', Arial, sans-serif;
+  text-align: center;
+  text-shadow: 1px 1px #000000;
+  margin-top: 0px;
+}
+
+h3 {
+  color: #faa21c;
+  font-family: 'Sofia', sans-serif, fantasy;
+  font-size: 2em;
+}
+
+/* p and other font related tags configuration */
+p {
+  color: grey;
+  font-size: 20px;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+p.placeinfo {
+  font-size: 16px;
+}
+
+p.alert {
+  color: white;
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+p.signature {
+  text-align: center;
+}
+
+.tagwords {
+  padding: 10px;
+  line-height: 2em;
+  font-size: 25px;
+  color: white;
+  background-color: green;
+  border-radius: 40px/10px;
+  text-align: center;
+}
+
+/* ol configuration */
+ol.thingstodo {
+  line-height: 2em;
+  padding-left: 0;
+  text-align: justify;
+  text-indent: -50px;
+  margin-left: 50px;
+}
+
+ol.thingstodo > li {
+  margin-left: 0;
+  padding-left: 0;
+  counter-increment: item;
+  list-style: none inside;
+  margin-bottom: 20px;
+  color: green;
+}
+
+ol.thingstodo > li:before {
+  color: white;
+  content: counter(item);
+  padding: 10px 15px;
+  margin-right: 0.5em;
+  background: green;
+  border-radius: 50%;
+}
+
+li.thingstodo {
+  font-size: 20px;
+  text-align: left;
+}
+
+/* table configuration */
+table.placeinfo {
+  width: 100%;
+  background-color: #bebdfd;
+}
+
+tr.placeinfo {
+  border-radius: 15px;
+  line-height: 3em;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* checkbox and selectbox configurations */
+.checkbox,
+.selectbox {
+  padding-left: 20px;
+  font-size: 20px;
+  color: green;
+  border: none;
+  margin-right: 20px;
+}
+
+.checkword {
+  padding: 0;
+}
+
+.checkword:hover {
+  color: #faa21c;
+}
+
+/* image configurations */
+img {
+  width: 100%;
+}
+
+img.city-activities {
+  border-radius: 15px 15px 0 0;
+}
+
+/* icon star checked configuration */
+.checked {
+  color: orange;
+}
+
+/* search button configuration */
+.button {
+  color: white;
+  background-color: tomato;
+  margin-top: 5px;
+  cursor: pointer;
+  width: 100%;
+  padding-left: 20px;
+  min-height: 40px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* selectbox configuration */
+.box select {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  -webkit-appearance: button;
+  appearance: button;
+  width: 100%;
+  min-height: 40px;
+  text-align: center;
+  font-size: 20px;
+}
