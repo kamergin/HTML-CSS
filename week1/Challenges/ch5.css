@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#header {
+  border-top: solid #b0a087 20px;
+  width: 100%;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0);
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
+#logo {
+  float: left;
+  width: 35%;
+}
+
+img {
+  position: relative;
+  left: 30px;
+}
+
+blockquote p {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-style: italic;
+}
+
+blockquote {
+  float: right;
+  font-size: x-large;
+  width: 65%;
+  margin: 0;
+}
+
+#content {
+  box-sizing: border-box;
+}
+
+#content-side {
+  width: 35%;
+  float: left;
+}
+#content-main {
+  width: 65%;
+  float: right;
+  padding-left: 25px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+a {
+  color: #b0a087;
+}
+#content-side a {
+  padding-left: 20px;
+}

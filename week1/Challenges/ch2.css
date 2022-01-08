@@ -1,0 +1,46 @@
+body {
+  background-color: #e3ac7f;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-style: italic;
+  padding: 5px;
+  margin: 0px;
+}
+
+p {
+  padding: 20px;
+  margin: 0;
+}
+p.copyright {
+  font-size: small;
+  padding: 10px;
+}
+
+#wrap {
+  width: 60%;
+  margin: auto;
+  border: dashed 4px;
+  background-color: #f5f5dd;
+}
+
+.line {
+  border-bottom: dashed 4px;
+  background-color: #f5f5dd;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  margin: 0;
+  list-style-type: none;
+  font-style: italic;
+}
+li::first-letter {
+  font-size: 1.5em;
+  color: black;
+}

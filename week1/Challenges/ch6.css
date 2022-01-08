@@ -1,0 +1,30 @@
+body {
+  background-color: antiquewhite;
+  background-image: url(https://miro.medium.com/max/551/1*b0bmZk0d31hAVgDWExpw4g.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#wrap {
+  margin-top: 0;
+  width: 50%;
+  float: right;
+  border: 1px dashed tomato;
+  background-image: url(https://miro.medium.com/max/700/1*oNkm7pzDxF4VmrSLSw_TSg.jpeg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 300px;
+}
+.thepost {
+  font-family: ubuntu;
+  line-height: 1.5;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 800px;
+}
+.posttitle {
+  font-family: 'Dela Gothic One', cursive;
+}
+.dateheader {
+}
+.postfooter {
+}
