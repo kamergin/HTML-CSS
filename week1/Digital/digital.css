@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 70%;
+  height: 200px;
+  float: right;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  background-image: url(https://www.azamara.com/sites/default/files/heros/brazil-1800x1000.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.clr {
+  height: 205px;
+}
+
+aside {
+  width: 30%;
+  float: left;
+  font-family: fantasy;
+  padding: 0px 50px 0px 10px;
+  box-sizing: border-box;
+  position: fixed;
+  text-align: center;
+}
+
+nav {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  width: 100px;
+  padding: 42px;
+}
+
+a {
+  text-decoration: none;
+}
+nav li:hover {
+  background-color: coral;
+  color: brown;
+}
+
+img.profile {
+  width: 200px;
+  border-radius: 50%;
+}
+
+main {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  float: right;
+}
+
+article {
+  width: 70%;
+  float: right;
+  box-sizing: border-box;
+  padding: 20px;
+  line-height: 2em;
+  background-color: #f4f4f4;
+  border-left: 1px dashed#f95c5b;
+  border-top: 1px dashed#f95c5b;
+  border-bottom: 1px dashed#f95c5b;
+  border-radius: 20px;
+}
+
+ul li {
+  list-style-position: inside;
+  margin-left: 10px;
+}
+
+h1,
+h2,
+h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #f95c5b;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  box-sizing: border-box;
+  width: 70%;
+  background-color: white;
+  float: right;
+  padding: 50px 0 50px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.languages,
+.skills,
+.hobbies,
+.contact {
+  width: 25%;
+  float: left;
+}
+
+@media only screen and (max-width: 620px) {
+  li,
+  aside,
+  header,
+  article,
+  footer,
+  .languages,
+  .skills,
+  .hobbies,
+  .contact {
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: top;
+  }
+}
