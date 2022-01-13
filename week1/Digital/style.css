@@ -72,6 +72,10 @@ h3 {
   color: #f95c5b;
 }
 
+aside h3 {
+  padding-top: 30px;
+}
+
 #talents {
   display: flex;
   padding: 20px;
