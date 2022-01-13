@@ -24,6 +24,7 @@ aside {
 
 header {
   height: 220px;
+  margin-left: 30%;
   text-align: center;
   background-image: url(https://www.azamara.com/sites/default/files/heros/brazil-1800x1000.jpg);
   background-position: 70% 20%;
@@ -79,6 +80,7 @@ h3 {
 
 footer {
   text-align: center;
+  margin-left: 30%;
   padding: 20px;
   background-color: #fcac6b;
   border-radius: 10px;
@@ -86,6 +88,8 @@ footer {
 
 @media only screen and (max-width: 620px) {
   aside,
+  header,
+  footer,
   main {
     box-sizing: border-box;
     width: 100%;
