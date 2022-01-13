@@ -5,46 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Ubuntu"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <aside>
-      <img
-        class="profile"
-        src="https://pbs.twimg.com/profile_images/1473767609350955016/FwoOe5av_400x400.jpg"
-      />
-      <section class="about-me">
-        <h1>KAMIL ERGIN</h1>
-        <p>
-          He is an educator, international journalist, communication specialist
-          and entrepreneur with an extensive network in Turkey, Brazil, Europe
-          and USA. He is passionate about technology and likes to produce more
-          than he consumes.
-        </p>
-      </section>
-      <section class="personal-information">
-        <h3>Personal Information</h3>
-        <p>Nationality: Turkish</p>
-        <p>Residence: Netherlands</p>
-        <p>Age: 38</p>
-      </section>
-      <div class="">
-        <img src="https://i.ibb.co/NLK1w8s/logo1.png" />
+    <div class="root">
+      <div class="child1">
+        <aside>
+          <img
+            id="profile"
+            src="https://pbs.twimg.com/profile_images/1473767609350955016/FwoOe5av_400x400.jpg"
+          />
+          <section class="about-me">
+            <h1>KAMIL ERGIN</h1>
+            <p>
+              He is an educator, journalist, communication specialist and
+              entrepreneur with an extensive network in Turkey, Brazil, Europe
+              and USA. He is passionate about technology and likes to produce
+              more than he consumes.
+            </p>
+          </section>
+          <section class="personal-information">
+            <h3>Personal Information</h3>
+            <p>Nationality: Turkish</p>
+            <p>Residence: Netherlands</p>
+            <p>Age: 38</p>
+          </section>
+          <div>
+            <img src="https://i.ibb.co/NLK1w8s/logo1.png" />
+          </div>
+        </aside>
       </div>
-    </aside>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">PORTFOLIO</a></li>
-          <li><a href="#">PRESS</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="clr"></div>
-    <main>
-      <article>
+      <div class="child2">
+        <header>
+          <nav>
+            <ul>
+              <li><a href="#profile">HOME</a></li>
+              <li><a href="#languages">PORTFOLIO</a></li>
+              <li><a href="#talents">PRESS</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+    </div>
+    <div class="container">
+      <main>
         <section class="education">
           <h2>Education</h2>
           <ul>
@@ -142,37 +151,39 @@
             </li>
           </ul>
         </section>
-      </article>
-    </main>
-    <footer>
-      <div class="skills">
-        <h3>Skills</h3>
-        <p>HTML/CSS/GIT</p>
-        <p>JavaScript</p>
-        <p>React/Node.JS</p>
-        <p>Databases/Python</p>
-      </div>
-      <div class="languages">
-        <h3>Languages</h3>
-        <p>Turkish [native]</p>
-        <p>English [professional]</p>
-        <p>Portuguese [professional]</p>
-        <p>Dutch [elementary]</p>
-      </div>
-      <div class="hobbies">
-        <h3>Hobbies</h3>
-        <p>Poetry Writing</p>
-        <p>Documentary Watching</p>
-        <p>Exploring New Cultures</p>
-        <p>Cooking for Friends</p>
-      </div>
-      <div class="contact">
-        <h3>Contact</h3>
-        <p>kamergin@gmail.com</p>
-        <p>Tel: 957596394</p>
-        <p>Twitter: @kamergin</p>
-        <p>LinkedIn: #kamil-ergin</p>
-      </div>
-    </footer>
+        <div id="talents">
+          <div class="skills">
+            <h3>Skills</h3>
+            <p>HTML/CSS/GIT</p>
+            <p>JavaScript</p>
+            <p>React/Node.JS</p>
+            <p>Databases/Python</p>
+          </div>
+          <div id="languages">
+            <h3>Languages</h3>
+            <p>Turkish [native]</p>
+            <p>English [professional]</p>
+            <p>Portuguese [professional]</p>
+            <p>Dutch [elementary]</p>
+          </div>
+          <div class="hobbies">
+            <h3>Hobbies</h3>
+            <p>Poetry Writing</p>
+            <p>Documentary Watching</p>
+            <p>Exploring New Cultures</p>
+            <p>Cooking for Friends</p>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div id="contact">
+          <h3>Contact</h3>
+          <p>kamergin@gmail.com</p>
+          <p>Tel: 957596394</p>
+          <p>Twitter: @kamergin</p>
+          <p>LinkedIn: #kamil-ergin</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
