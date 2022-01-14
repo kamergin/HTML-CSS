@@ -1,9 +1,9 @@
 # Welcome to my GitHub page
 
 Here I am going to keep and share all my experience with the HTML/CSS Module
---
+
 Let's enjoy it!
---
+
 ![alt text](https://media.makeameme.org/created/wanna-dance-lets.jpg "Lets enjoy it")
 
 ## The first week is over. Here what I have learned
